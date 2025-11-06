@@ -28,7 +28,7 @@ export const Navbar = () => {
                         <li className="nav-item">
                             <NavLink 
                                 className={({ isActive }) => `nav-link ${isActive ? 'active' : ''}`} 
-                                to="/"
+                                to="/home"
                             >
                                 Home
                             </NavLink>
